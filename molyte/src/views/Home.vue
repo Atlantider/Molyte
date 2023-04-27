@@ -1,5 +1,6 @@
 <template>
-  <div class="text-description">
+  <div>
+    <div class="text-description">
                     <p class="p-title">
                         Molyte电解液数据库
                     </p>
@@ -30,6 +31,7 @@
                     <p class="p-content">
                         数据驱动的机器学习模块：该模块利用有机溶剂分子数据和电解液结构数据，采用数据驱动的方法来开发新型的电解液。通过机器学习算法的训练和优化，可以快速预测电解液的性质和特性，并优化电解液组分的比例和配方，以满足不同应用场景下的要求。</p>
                 </div>
+  </div>
 </template>
 
 <style>
