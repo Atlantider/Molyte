@@ -20,7 +20,22 @@ const router = createRouter({
       // route level code-splitting
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
-      component: () => import('../views/Project.vue')
+      component: () => import('../views/Project.vue'),
+      children:[
+        {path: '/',redirect: 'LiPF6-EMC-FEC-M'},
+        {
+          path: 'LiPF6-EMC-FEC-M',
+          name: 'LiPF6-EMC-FEC-M',
+          component: () => import('../views/LiPF6-EMC-FEC-M.vue'),
+          children:[
+            {
+              path: 'LiPF6',
+              name: 'LiPF6',
+              component: () => import('../components/LiPF6.vue')
+            }
+          ]
+        },
+      ]
     }
   ]
 })
