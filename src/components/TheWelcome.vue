@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import WelcomeItem from './LiPF6.vue'
+import WelcomeItem from './1LiDFOB-0.2LiBF4-3.4FEC-4.13DEC-1.65HFE-0.22PFP.vue'
 </script>
 
 <template>

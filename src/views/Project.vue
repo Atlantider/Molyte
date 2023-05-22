@@ -6,21 +6,23 @@ import TheWelcome from '../components/TheWelcome.vue'
   <main>
     <TheWelcome />
     <nav>
-					<RouterLink to="/project/LiPF6-EMC-FEC-M">LiPF6-EMC-FEC-M</RouterLink>
-					<RouterLink to="/project/LiPF6-EMC-FEC-M">LiPF6-EMC-FEC-M</RouterLink>
+					<RouterLink to="/project/Li">Li</RouterLink>
+					<RouterLink to="/project/Na">Na</RouterLink>
+          <RouterLink to="/project/K">K</RouterLink>
 				</nav>
         	<RouterView />
   </main>
 </template>
 <style scoped>
 nav {
-  width: 20%;
+  width: 10%;
   /* text-align: center; */
   float: left;
   margin-top: 2rem;
+  margin-left: 1rem;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 1rem;
   /* justify-content: flex-start; */
 }
 
